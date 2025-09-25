@@ -96,6 +96,66 @@
             //    Console.WriteLine($"{i} \t");
             //}
 
+            //СОРТИРОВКА
+
+            //int[] nums = [54, 7, -41, 2, 4, 2, 89, 33, -5, 12];
+            //int temp;
+            //for (int i=0; i<nums.Length-1;  i++)
+            //{
+            //    for (int j=i+1; j<nums.Length; j++)
+            //    {
+            //        if (nums[i] > nums[j])
+            //        {
+            //            temp = nums[i];
+            //            nums[i] = nums[j];
+            //            nums[j] = temp;
+            //        }
+            //    }
+            //}
+            //foreach (int i in nums)
+            //{
+            //    Console.WriteLine(i);
+            //}
+            //List<string> people = new List<string>();
+            //List<string> people = [];
+            //List<string> student = new List<string>()
+            //{
+            //    "Иван","Игорь", "Александр"
+            //};
+            //List<string> student = ["Иван", "Игорь", "Александр"];
+            //List<string> student = ["Иван", "Игорь", "Александр"];
+            //var yourStudent = new List<string>(student);
+            //List<string> student = new List<string>(10);
+            //List<string> student = new(10);
+            //List<string> student = ["Билли", "Игорь", "Степан"];
+            //string firstStudent = student[0];
+            //Console.WriteLine(firstStudent);
+            //student[0] = "Богдан";
+            //Console.WriteLine(student[0]);
+            //List<string> student = ["Билли", "Игорь", "Степан"];
+            //Console.WriteLine(student.Count);
+            //List<string> student = ["Билли", "Игорь", "Степан"];
+            //foreach ( var person in student)
+            //{
+            //    Console.WriteLine(person);
+            //}
+            List<string> student = ["Билли", "Игорь", "Степан"];
+            student.Add("Van");
+            student.AddRange(["Антон", "Денис"]);
+            student.Insert(1, "Кирилл"); //вставляет элемент по индексу
+            student.InsertRange(1, ["Mike", "Kate"]);
+            sudent.Insert(7, "Михаил");
+            foreach(var person in student)
+            {
+                Console.WriteLine(person);
+            }
+            var people = new List<string>() { "Eugene", "Mike", "Kate", "Tom", "Bob", "Sam", "Tom", "Al" };
+            people.RemoveAt(1); //удаляется элемент по индексу
+            people.Remove("Tom");
+            people.RemoveRange(1, 2);
+            people.Clear();
+
+
 
 
 
