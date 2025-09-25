@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36414.22 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "laba5_Kuzmina_ISP-232", "laba5_Kuzmina_ISP-232.csproj", "{75273892-FEB7-482F-9B49-921D501C7EF7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{75273892-FEB7-482F-9B49-921D501C7EF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75273892-FEB7-482F-9B49-921D501C7EF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75273892-FEB7-482F-9B49-921D501C7EF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75273892-FEB7-482F-9B49-921D501C7EF7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C232AA08-2A75-4EC6-AE05-C4A652CE29EC}
+	EndGlobalSection
+EndGlobal
